@@ -6,7 +6,7 @@ import { ReactMonorepoOrders } from '@react-monorepo/orders';
 import { Route, Routes, Link } from 'react-router-dom';
 
 function Home() {
-  return <h1>Welcome react-store</h1>;
+  return <h1>Welcome @react-monorepo/react-store</h1>;
 }
 
 export function App() {
