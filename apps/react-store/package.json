@@ -8,8 +8,13 @@
   "nx": {
     "targets": {
       "deploy": {
-        "dependsOn": ["build"]
+        "dependsOn": [
+          "build"
+        ]
       }
     }
+  },
+  "dependencies": {
+    "netlify-cli": "^22.1.4"
   }
 }
