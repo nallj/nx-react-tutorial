@@ -1,5 +1,15 @@
 {
   "name": "@react-monorepo/react-store",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "scripts": {
+    "deploy": "netlify deploy --dir=dist"
+  },
+  "nx": {
+    "targets": {
+      "deploy": {
+        "dependsOn": ["build"]
+      }
+    }
+  }
 }
