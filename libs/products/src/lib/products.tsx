@@ -4,7 +4,8 @@ import { ReactMonorepoUi } from '@react-monorepo/ui';
 export function ReactMonorepoProducts() {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to ReactMonorepoProducts!</h1>
+      <h1>Welcome to Products!</h1>
+      <p>This is a change. 👋</p>
       <ReactMonorepoUi />
     </div>
   );
